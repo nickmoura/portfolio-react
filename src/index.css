@@ -1,13 +1,185 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: #3131b4;
+	font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.my-name {
+	font-weight: bolder;
+	color: #3131b4;
 }
+
+.hero {
+	background-image: url(./assets/img/bg.jpg);
+}
+
+.portfolio-title {
+	color: #FFFFCC;
+}
+
+.subtitle-a {
+	color: #FFFFCC;
+}
+
+#about {
+	color: #828282;
+}
+
+.box-shadow-full {
+	border-radius: 20px;
+}
+
+header {
+	background-color: #3131b4;
+}
+
+.line-mf {
+	background-color: #3131b4;
+}
+
+.title-left, .title-s {
+	color: #3131b4;
+}
+
+.title-left::before {
+	background-color: #3131b4;
+
+}
+
+.skill-mf>.progress>.progress-bar {
+	background-color: #3131b4;
+}
+
+.skill-mf>.progress {
+	background-color: #84bfbf;
+}
+
+.email-link, .link-wpp {
+	color: #828282;
+}
+
+.socials {
+	text-align: center;
+}
+
+.overlay-mf {
+	background-color: #3131b4;
+}
+
+footer {
+	background-color: #3131b4;
+	border-top: 1px solid #FFFFCC;
+}
+
+.stacks-container {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	flex-wrap: wrap
+}
+
+.stack-name {
+	text-align: center;
+	color: #3131b4;
+}
+
+.stack-info {
+    opacity: 0.5;
+    transition: opacity 0.3s, transform 0.3s ease;
+}
+
+.stack-info:hover {
+	opacity: 1;
+    transform: scale(1.1);
+}
+
+.lang {
+	border-top: 1px solid #828282;
+	border-bottom: 1px solid #828282;
+	margin: 0;
+	padding: 1rem 0;
+	color: #0078ff;
+}
+
+.ico-circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.w-more > p.w-ctegory {
+    text-align: justify;
+}
+
+.w-date {
+	margin: 0;
+	color: #0078ff;
+}
+
+.work-box {
+	/* border: 1px solid #0078ff; */
+	border-radius: 20px;
+}
+
+.work-box:hover {
+	border: 2px solid #0078FF;
+}
+
+.proj-type-text {
+	font-size: 1.1rem;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #0078ff;
+	margin: 0;
+	padding: 1rem 0;
+	/* border-top: 1px solid #FFFFCC ;
+	border-left: 1px solid #FFFFCC;
+	border-right: 1px solid #FFFFCC; */
+	border-bottom: 1px solid;
+	border-radius: 20px 20px 0 0;
+}
+
+.proj-code-text {
+	font-size: 1.1rem;
+    font-family: "Consolas", Courier, monospace;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #0078ff;
+	margin: 0;
+	padding: 1rem 0;
+	/* border-top: 1px solid #FFFFCC ;
+	border-left: 1px solid #FFFFCC;
+	border-right: 1px solid #FFFFCC; */
+	border-top: 1px solid;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.3s ease;
+	border-radius: 0 0 20px 20px;
+}
+
+.proj-code-text:hover {
+	text-transform: uppercase;
+}
+
+.proj-code-text > a {
+	color: #0078ff;
+	cursor: pointer;
+}
+
+#header>.all-projects {
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+}
+
+.download-cv {
+	margin-top: 1rem;
+	padding: 1rem;
+	border-radius: 100px;
+	background-color: #3131b4;
+	color: #FFFFCC;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	font-weight: bolder;
+	cursor: pointer;
+} 

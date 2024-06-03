@@ -1,9 +1,35 @@
 // src/pages/Home.js
 import React from 'react';
+import cvNick from '../assets/docs/Nickolas Moura CV.pdf';
+import minhaFoto from '../assets/img/eu.jpeg';
+import htmlLogo from '../assets/img/stacks/html-1.png';
+import cssLogo from '../assets/img/stacks/css-1.png';
+import jsLogo from '../assets/img/stacks/javascript-1.png';
+import reactLogo from '../assets/img/stacks/react-1.png';
+import bsLogo from '../assets/img/stacks/bootstrap-1.png';
+import phpLogo from '../assets/img/stacks/php-1.png';
+import javaLogo from '../assets/img/stacks/java-1.png';
+import figmaLogo from '../assets/img/stacks/figma-1.png';
+import vscodeLogo from '../assets/img/stacks/vsc-1.png';
+
 
 const Home = () => {
   return (
     <div>
+		<div id="hero" className="hero route bg-image">
+    <div className="overlay-itro"></div>
+    <div className="hero-content display-table">
+      <div className="table-cell">
+        <div className="container">
+          <h1 className="hero-title mb-4">Eu sou o <span className="my-name">Nickolas Moura</span> 🤗</h1>
+          <p className="hero-subtitle"><span className="typed"
+              data-typed-items="Desenvolvedor Front-End Jr., Profissional certificado CSM e KMPI, Fã de Rock, Fã de Fórmula 1, Torcedor do São Paulo"></span>
+          </p><br />
+          <a className="download-cv" target="_blank" href={cvNick}>Baixar CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
 <main id="main">
 
 <section id="about" className="about-mf sect-pt4 route">
@@ -16,7 +42,7 @@ const Home = () => {
 			  <div className="row">
 				<div className="col-sm-6 col-md-5">
 				  <div className="about-img">
-					<img src="assets/img/eu.jpeg" className="img-fluid rounded b-shadow-a" alt="" />
+					<img src={minhaFoto} className="img-fluid rounded b-shadow-a" alt="" />
 				  </div>
 				</div>
 				<div className="col-sm-6 col-md-7">
@@ -35,40 +61,40 @@ const Home = () => {
 				<div className="stacks-container">
 				  <div className="stack-info">
 					<h6 className="stack-name">HTML</h6>
-					<img src="assets/img/stacks/html-1.png" width="70" alt="HTML" className="stack-logo" />
+					<img src={htmlLogo} width="70" alt="HTML" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">CSS</h6>
-					<img src="assets/img/stacks/css-1.png" width="70" alt="CSS" className="stack-logo" />
+					<img src={cssLogo} width="70" alt="CSS" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">JavaScipt</h6>
-					<img src="assets/img/stacks/javascript-1.png" width="70" alt="JavaScript" className="stack-logo" />
+					<img src={jsLogo} width="70" alt="JavaScript" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">React</h6>
-					<img src="assets/img/stacks/react-1.png" width="70" height="70" alt="React" className="stack-logo" />
+					<img src={reactLogo} width="70" height="70" alt="React" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">Bootstrap</h6>
-					<img src="assets/img/stacks/bootstrap-1.png" width="90" height="70" alt="Boots"
+					<img src={bsLogo} width="90" height="70" alt="Boots"
 					  className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">PHP</h6>
-					<img src="assets/img/stacks/php-1.png" width="90" height="70" alt="PHP" className="stack-logo" />
+					<img src={phpLogo} width="90" height="70" alt="PHP" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">Java</h6>
-					<img src="assets/img/stacks/java-1.png" width="70" alt="Java" className="stack-logo" />
+					<img src={javaLogo} width="70" alt="Java" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">Figma</h6>
-					<img src="assets/img/stacks/figma-1.png" width="50" height="70" alt="Figma" className="stack-logo" />
+					<img src={figmaLogo} width="50" height="70" alt="Figma" className="stack-logo" />
 				  </div>
 				  <div className="stack-info">
 					<h6 className="stack-name">VSCode</h6>
-					<img src="assets/img/stacks/vsc-1.png" width="70" alt="VSCode" className="stack-logo" />
+					<img src={vscodeLogo} width="70" alt="VSCode" className="stack-logo" />
 				  </div>
 				</div>
 			  </div>
@@ -427,7 +453,7 @@ const Home = () => {
 </section>
 
 <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route"
-  style="background-image: url(assets/img/wallhaven-nrzx8j.jpg)">
+  style={{ backgroundImage: "url('../assets/img/wallhaven-nrzx8j.jpg')"}}>
   <div className="overlay-mf"></div>
   <div className="container">
 	<div className="row">
