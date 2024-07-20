@@ -6,7 +6,7 @@
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 40
+  'opsz' 403131b4
 }
 
 body {
@@ -16,7 +16,16 @@ body {
 
 .my-name {
 	font-weight: bolder;
-	color: #3131b4;
+	color: #FFFFCC;
+	text-shadow: 
+	-2px -2px 0 #3131b4,  
+	 2px -2px 0 #3131b4,
+	-2px  2px 0 #3131b4,
+	 2px  2px 0 #3131b4,
+	-2px -2px 0 #3131b4, 
+	 2px -2px 0 #3131b4,
+	-2px  2px 0 #3131b4,
+	 2px  2px 0 #3131b4;
 }
 
 .portfolio-title {
@@ -90,7 +99,7 @@ header {
 
 footer {
 	background-color: #3131b4;
-	border-top: 1px solid #FFFFCC;
+	border-top: 2px solid #FFFFCC;
 }
 
 .stacks-container {
@@ -116,8 +125,8 @@ footer {
 }
 
 .lang {
-	border-top: 1px solid #828282;
-	border-bottom: 1px solid #828282;
+	border-top: 2px solid #828282;
+	border-bottom: 2px solid #828282;
 	margin: 0;
 	padding: 1rem 0;
 	color: #0078ff;
@@ -144,7 +153,7 @@ footer {
 }
 
 .work-box {
-	/* border: 1px solid #0078ff; */
+	/* border: 2px solid #0078ff; */
 	border-radius: 20px;
 }
 
@@ -159,10 +168,10 @@ footer {
 	color: #0078ff;
 	margin: 0;
 	padding: 1rem 0;
-	/* border-top: 1px solid #FFFFCC ;
-	border-left: 1px solid #FFFFCC;
-	border-right: 1px solid #FFFFCC; */
-	border-bottom: 1px solid;
+	/* border-top: 2px solid #FFFFCC ;
+	border-left: 2px solid #FFFFCC;
+	border-right: 2px solid #FFFFCC; */
+	border-bottom: 2px solid;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -174,10 +183,10 @@ footer {
 	color: #0078ff;
 	margin: 0;
 	padding: 1rem 0;
-	/* border-top: 1px solid #FFFFCC ;
-	border-left: 1px solid #FFFFCC;
-	border-right: 1px solid #FFFFCC; */
-	border-top: 1px solid;
+	/* border-top: 2px solid #FFFFCC ;
+	border-left: 2px solid #FFFFCC;
+	border-right: 2px solid #FFFFCC; */
+	border-top: 2px solid;
 	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.3s ease;
 	border-radius: 0 0 20px 20px;

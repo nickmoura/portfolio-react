@@ -40,7 +40,7 @@ const Home = () => {
 							<p className="hero-subtitle"><span className="typed"
 								data-typed-items="Desenvolvedor Front-End Jr., Profissional certificado CSM e KMPI, Fã de Rock, Fã de Fórmula 1, Torcedor do São Paulo"></span>
 							</p><br />
-							<a className="download-cv" target="_blank" href="assets/docs/Nickolas Moura CV.pdf">Baixar CV</a>
+							<a className="download-cv" target="_blank" rel="noopener noreferrer" href="assets/docs/Nickolas Moura CV.pdf">Baixar CV</a>
 						</div>
 					</div>
 				</div>
@@ -194,7 +194,7 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="https://www.wemalagueta.com.br" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="https://www.wemalagueta.com.br" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
@@ -225,7 +225,7 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="/pages/carrinho.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="/pages/carrinho.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
@@ -257,12 +257,12 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="https://nickmoura.github.io/hamburgueria/" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="https://nickmoura.github.io/hamburgueria/" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
-								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/hamburgueria" target="_blank"> &lt;Código
+								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/hamburgueria" target="_blank" rel="noopener noreferrer"> &lt;Código
 									disponível&gt; </a></h2>
 							</div>
 						</div>
@@ -289,13 +289,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/buscador.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/buscador.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/portfolio/blob/main/pages/buscador.html"
-									target="_blank"> &lt;Código disponível&gt; </a></h2>
+									target="_blank" rel="noopener noreferrer"> &lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -321,13 +321,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/calculadora.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/calculadora.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a
-									href="https://github.com/nickmoura/portfolio/blob/main/pages/calculadora.html" target="_blank">
+									href="https://github.com/nickmoura/portfolio/blob/main/pages/calculadora.html" target="_blank" rel="noopener noreferrer">
 									&lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
@@ -354,13 +354,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/conversor.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/conversor.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/portfolio/blob/main/pages/conversor.html"
-									target="_blank"> &lt;Código disponível&gt; </a></h2>
+									target="_blank" rel="noopener noreferrer"> &lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -385,13 +385,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/login.html" target="_blank"><box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/login.html" target="_blank" rel="noopener noreferrer"><box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/portfolio/blob/main/pages/login.html"
-									target="_blank"> &lt;Código disponível&gt; </a></h2>
+									target="_blank" rel="noopener noreferrer"> &lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -416,13 +416,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/moedas.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/moedas.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/portfolio/blob/main/pages/moedas.html"
-									target="_blank"> &lt;Código disponível&gt; </a></h2>
+									target="_blank" rel="noopener noreferrer"> &lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -449,12 +449,12 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="https://github-finder-taupe-five.vercel.app/" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="https://github-finder-taupe-five.vercel.app/" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
-								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/github_finder" target="_blank">
+								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/github_finder" target="_blank" rel="noopener noreferrer">
 									&lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
@@ -479,13 +479,13 @@ const Home = () => {
 										</div>
 										<div className="col-sm-4">
 											<div className="w-like">
-												<a href="pages/agenda.html" target="_blank"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
+												<a href="pages/agenda.html" target="_blank" rel="noopener noreferrer"> <box-icon name='right-top-arrow-circle' type='solid' color='#3131b4' size="3.5rem"></box-icon></a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<h2 className="proj-code-text"><a href="https://github.com/nickmoura/portfolio/blob/main/pages/agenda.html"
-									target="_blank"> &lt;Código disponível&gt; </a></h2>
+									target="_blank" rel="noopener noreferrer"> &lt;Código disponível&gt; </a></h2>
 							</div>
 						</div>
 
